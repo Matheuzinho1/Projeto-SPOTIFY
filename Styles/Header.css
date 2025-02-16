@@ -1,0 +1,89 @@
+header {
+    padding: 8px 8px 8px 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 82.5%;
+}
+
+#header-search {
+    background-color: var(--color-dark);
+    border-radius: 8px;
+    padding: 16px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#container-arrows {
+    display: flex;
+    gap: 20px;
+
+    .arrow {
+        background: var(--color-black);
+        border-radius: 1000px;
+        padding: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
+
+#container-search {
+    input[type="text"] {
+        background: var(--color-light-gray) url("../Assets/Icons/search.png") no-repeat 16px center;
+        padding: 16px 16px 16px 40px;
+        border-radius: 1000px;
+        width: 350px;
+        color: var(--color-white);
+        border: none;
+        background-size: 16px;
+        font-size: 16px;
+
+        &:focus {
+            outline: none;
+            border: 1px solid var(--color-white);
+        }
+    }
+}
+
+#container-login {
+    display: flex;
+    gap: 20px;
+
+    #login-button {
+        color: var(--color-white);
+        background: transparent;
+        font-size: 16px;
+        padding: 8px;
+        border: 2px solid transparent;
+        font-weight: 600;
+        transition: transform 0.2s;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+
+    #signup-button {
+        font-size: 16px;
+        padding: 16px;
+        font-weight: 600;
+        border-radius: 1000px;
+        width: 100px;
+        background-color: var(--color-white);
+        color: var(--color-black);
+        transition: transform 0.2s;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}

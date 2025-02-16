@@ -1,0 +1,12 @@
+:root {
+  --color-black: #000;
+  --color-dark: #121212;
+  --color-gray: #b3b3b3;
+  --color-light-gray: #242424;
+  --color-white: #fff;
+  --color-purple-gradient: linear-gradient(to right, #c540e7, #666efe, #519af4);
+}
+
+body {
+  color: var(--color-black);
+}

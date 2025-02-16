@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Curso da Alura (Imersão - Front-End)" />
+  <link rel="stylesheet" type="text/css" href="Styles/Reset.css" />
+  <link rel="stylesheet" type="text/css" href="Styles/Variáveis.css"/>
+  <link rel="stylesheet" type="text/css" href="Styles/Sidebar.css"/>
+  <link rel="stylesheet" type="text/css" href="Styles/Header.css"/>
+  <link rel="stylesheet" type="text/css" href="Styles/Main.css"/>
+  <link rel="stylesheet" type="text/css" href="Styles/Footer.css"/>
+  <link rel="stylesheet" type="text/css" href="Styles/Media-Querry.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"/>
+  <title>Spotify</title>
+</head>
+<body>
+
+<!-- Sidebar -->
+<aside>
+  <nav class="sidebar-navigation">
+    <div id="logo">
+      <a href="">
+        <img src="Assets/Icons/logo-spotify.png" alt="Logo do Spotify" />
+      </a>
+    </div>
+    <ul>
+      <li>
+        <a href="">
+          <span class="fa fa-home"></span>
+          <span>Início</span>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <span class="fa fa-search"></span>
+          <span>Buscar</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <section class="library">
+    <div class="library-content">
+      <button class="library-button">
+        <span class="fa fas fa-book"></span>
+        <span>Sua biblioteca</span>
+      </button>
+      <button class="library-button">
+        <span class="fa fa-plus"></span>
+      </button>
+    </div>
+    <section class="section-playlist">
+      <div class="section-playlist-content">
+        <span class="text title">Crie sua primeira playlist</span>
+        <span class="text subtitle">É fácil, vamos te ajudar.</span>
+        <button class="section-playlist-button">
+          <span>Criar playlist</span>
+        </button>
+      </div>
+    </section>
+    <div class="cookies">
+      <a href="">Cookies</a>
+    </div>
+    <div class="languages">
+      <button class="languages-button">
+        <span class="fa fa-globe"></span>
+        <span>Português do Brasil</span>
+      </button>
+    </div>
+  </section>
+</aside>
+
+<!-- Header -->
+<header>
+  <nav id="header-search">
+    <div id="container-arrows">
+      <button class="arrow"><img src="Assets/Icons/small-left.png" alt="Voltar"></button>
+      <button class="arrow"><img src="Assets/Icons/small-right.png" alt="Avançar"></button>
+    </div>
+    <div id="container-search">
+      <form action="">
+        <input type="text" id="search-input" placeholder="O que você quer ouvir?"/>
+      </form>
+    </div>
+    <div id="container-login">
+      <button id="login-button">Inscrever-se</button>
+      <button id="signup-button">Entrar</button>
+    </div>
+  </nav>
+</header>
+
+<!-- Main Content -->
+<main>
+  <div id="main-content">
+    <div id="result-playlist">
+      <section id="container-titles">
+        <h1 id="title-welcome">Boas vindas</h1>
+        <h2 id="subtitle-welcome">Navegar por todas as seções</h2>
+      </section>
+
+      <!-- Seção de Cards de Playlist -->
+      <section id="container-cards-playlist">
+        <a href="" aria-label="Boas festas">
+          <article class="cards-playlist">
+            <h3>Boas festas</h3>
+            <img src="Assets/Playlist/1.jpeg" alt="">
+          </article>
+        </a>
+        <a href="" aria-label="Feitos para você">
+          <article class="cards-playlist">
+            <h3>Feitos para você</h3>
+            <img src="Assets/Playlist/2.png" alt="">
+          </article>
+        </a>
+        <a href="" aria-label="Lançamentos">
+          <article class="cards-playlist">
+            <h3>Lançamentos</h3>
+            <img src="Assets/Playlist/3.jpeg" alt="">
+          </article>
+        </a>
+        <a href="" aria-label="Creators">
+          <article class="cards-playlist">
+            <h3>Creators</h3>
+            <img src="Assets/Playlist/4.jpeg" alt="">
+          </article>
+        </a>
+        <a href="" aria-label="Para treinar">
+          <article class="cards-playlist">
+            <h3>Para treinar</h3>
+            <img src="Assets/Playlist/5.jpeg" alt="">
+          </article>
+        </a>
+        <a href="" aria-label="Podcasts">
+          <article class="cards-playlist">
+            <h3>Podcasts</h3>
+            <img src="Assets/Playlist/6.jpeg" alt="">
+          </article>
+        </a>
+        <a href="" aria-label="Sertanejo">
+          <article class="cards-playlist">
+            <h3>Sertanejo</h3>
+            <img src="Assets/Playlist/7.jpeg" alt="">
+          </article>
+        </a>
+        <a href="" aria-label="Samba e Pagode">
+          <article class="cards-playlist">
+            <h3>Samba e Pagode</h3>
+            <img src="Assets/Playlist/8.jpeg" alt="">
+          </article>
+        </a>
+        <a href="" aria-label="Funk">
+          <article class="cards-playlist">
+            <h3>Funk</h3>
+            <img src="Assets/Playlist/9.jpeg" alt="">
+          </article>
+        </a>
+        <a href="" aria-label="MPB">
+          <article class="cards-playlist">
+            <h3>MPB</h3>
+            <img src="Assets/Playlist/10.jpeg" alt="">
+          </article>
+        </a>
+        <a href="" aria-label="Rock">
+          <article class="cards-playlist">
+            <h3>Rock</h3>
+            <img src="Assets/Playlist/11.jpeg" alt="">
+          </article>
+        </a>
+        <a href="" aria-label="Hip Hop">
+          <article class="cards-playlist">
+            <h3>Hip Hop</h3>
+            <img src="Assets/Playlist/12.jpeg" alt="">
+          </article>
+        </a>
+        <a href="" aria-label="Indie">
+          <article class="cards-playlist">
+            <h3>Indie</h3>
+            <img src="Assets/Playlist/13.jpeg" alt="">
+          </article>
+        </a>
+        <a href="" aria-label="Relax">
+          <article class="cards-playlist">
+            <h3>Relax</h3>
+            <img src="Assets/Playlist/14.jpeg" alt="">
+          </article>
+        </a>
+      </section>
+    </div>
+    <div id="result-artist" class="hidden">
+      <div class="grid-container">
+        <div class="artist-card">
+          <div class="card-img">
+            <img id="artist-img" class="artist-img" />
+            <div class="play">
+              <span class="fa fa-solid fa-play"></span>
+            </div>
+          </div>
+          <div class="card-text">
+            <a title="Foo Fighters" class="vst" href=""></a>
+            <span class="artist-name" id="artist-name"></span>
+            <span class="artist-categorie">Artista</span>
+            </a>
+          </div>
+        </div>
+      </div>
+  </div>
+</main>
+
+<!-- Footer Content -->
+<footer id="advertising">
+  <div id="container-content">
+    <h1 class="text title">Testar o premium de graça.</h1>
+    <p class="text subtitle">Inscrever-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito.</p>
+  </div>
+  <button class="section-playlist-button">Inscreva-se grátis</button>
+</footer>
+
+<script src="Scripts.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+@media screen and (max-width: 1015px) {
+    aside {
+        width: 20%;
+    }
+
+    header, main {
+        width: 79.5%;
+    }
+}

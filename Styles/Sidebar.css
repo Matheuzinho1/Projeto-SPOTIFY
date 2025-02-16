@@ -1,0 +1,149 @@
+aside  {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 8px;
+  width: 17.5%;
+
+  & nav {
+    & ul {
+      margin-top: 20px;
+      padding: 0 20px 10px 20px;
+
+      & li {
+        padding: 10px 0;
+
+        & a {
+          color: var(--color-gray);
+          text-decoration: none;
+          font-weight: 600;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+.sidebar-navigation {
+  background-color: var(--color-dark);
+  border-radius: 8px;
+  padding: 8px;
+
+  & #logo {
+    background: var(--color-dark);
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+
+    & img {
+      width: 80px;
+    }
+  }
+
+  & nav {
+    & ul {
+      margin-top: 20px;
+    }
+  }
+}
+
+.library {
+  margin-top: 8px;
+  border-radius: 8px;
+  background-color: var(--color-dark);
+  padding: 8px;
+}
+
+.library-content {
+  padding: 16px 8px;
+  color: var(--color-gray);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  & .library-button {
+    font-weight: 600;
+    font-size: 14px;
+    background: transparent;
+    color: var(--color-gray);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  & .fa-plus {
+    font-size: 14px;
+  }
+
+  & .fa-book {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+}
+
+.section-playlist {
+  background: var(--color-light-gray);
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 16px;
+
+  & .section-playlist-content {
+    display: flex;
+    flex-direction: column;
+
+    & .text {
+      color: var(--color-white);
+      font-weight: 600;
+      line-height: 2em;
+    }
+
+    & .title {
+      font-size: 14px;
+    }
+
+    & .subtitle {
+      font-size: 12px;
+    }
+
+    & .section-playlist-button {
+      margin-top: 16px;
+      display: block;
+      padding: 8px;
+      border-radius: 16px;
+      font-weight: 700;
+    }
+  }
+}
+
+.cookies {
+  font-size: 10px;
+  padding: 16px;
+  margin-top: 16px;
+
+  & a {
+    color: var(--color-gray);
+    text-decoration: none;
+  }
+
+  & a:hover {
+    text-decoration: underline;
+  }
+}
+
+.languages {
+  padding: 8px;
+  margin-top: 8px;
+
+  & .languages-button {
+    border: solid 1px var(--color-white);
+    border-radius: 16px;
+    background: transparent;
+    padding: 8px;
+    color: var(--color-white);
+    font-weight: 600;
+  }
+}
