@@ -32,7 +32,7 @@ Uma aplicação web simples que permite a busca de músicas, simulando uma funci
     ```
 5. Inicie o servidor JSON:
     ```bash
-    json-server --watch db.json
+    json-server --watch API/Artistis.json
     ```
 6. Abra o arquivo `index.html` em um navegador para ver a aplicação em execução.
 
